@@ -1,5 +1,9 @@
 name: Summarizer
-
+on:
+  issues:
+    types:
+      - opened
+  
 jobs:
   summarize:
     runs-on: ubuntu-latest
